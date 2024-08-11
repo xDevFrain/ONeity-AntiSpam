@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^22.1.0",
+    "@types/node": "^22.2.0",
     "discord-anti-spam": "^2.8.1",
     "discord.js": "^14.15.3",
     "dotenv": "^16.4.5",
