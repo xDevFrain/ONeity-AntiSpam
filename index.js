@@ -11,7 +11,7 @@ const antiSpam = new AntiSpam({
   warnThreshold: 3, 
   muteTreshold: 3, 
   warnMessage: "تم تحذيرك بسبب الاسبام",
-  muteMessage: "تم اعطاك ميوت لمدة ساعة", 
+  muteMessage: "تم اعطائك ميوت لمدة ساعة", 
   unMuteTime: 60,
   verbose: true,
   removeMessages: true,
