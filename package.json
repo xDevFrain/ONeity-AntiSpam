@@ -1,19 +1,28 @@
 {
   "name": "oneity-anti-spam",
   "version": "1.0.0",
-  "description": "ONeityAntiSpam Bot For ONeity Community Server",
+  "description": "ONeityAntiSpam Bot for ONeity Community Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No test available currently.\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["discord", "anti-spam", "bot", "community", "moderation"],
+  "author": "Frain [ONeity-Team]",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xDevFrain/ONeity-AntiSpam.git"
+  },
   "dependencies": {
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.7.6",
     "discord-anti-spam": "^2.8.1",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.5",
     "express": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
