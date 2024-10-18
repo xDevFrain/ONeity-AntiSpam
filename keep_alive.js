@@ -1,6 +1,22 @@
-var http = require('http');
+const http = require('http');
+const dotenv = require('dotenv');
 
-http.createServer(function (req, res) {
+dotenv.config();
+
+const PORT = process.env.PORT || 8080;
+
+const server = http.createServer((req, res) => {
+  res.setHeader('Content-Type', 'text/plain');
+
   res.write("I'm alive");
+
   res.end();
-}).listen(8080);
+});
+
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
+server.on('error', (err) => {
+  console.error('Server error:', err);
+});
