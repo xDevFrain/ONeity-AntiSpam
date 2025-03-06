@@ -16,7 +16,7 @@
     "url": "https://github.com/xDevFrain/ONeity-AntiSpam.git"
   },
   "dependencies": {
-    "@types/node": "^22.13.5",
+    "@types/node": "^22.13.9",
     "discord-anti-spam": "^2.8.1",
     "discord.js": "^14.18.0",
     "dotenv": "^16.4.7",
