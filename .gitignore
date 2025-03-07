@@ -67,6 +67,7 @@ out/                   # Output folder for Next.js
 # ---------------------------------------
 # Version Control and Package Managers
 # ---------------------------------------
+package-lock.json
 .lock-wscript          # Node-waf configuration
 .npm/                  # Optional npm cache directory
 .yarn/                 # Yarn v2 directories
